@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoRentals.UI", "VideoRentals.UI\VideoRentals.UI.csproj", "{DC2572F0-7A08-4095-AAB4-FB11AFAD79B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{FDB19713-5855-4547-A365-9127B944F9B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commen", "ClassLibrary1\Commen.csproj", "{FDB19713-5855-4547-A365-9127B944F9B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
