@@ -59,7 +59,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabRent = new System.Windows.Forms.TabPage();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.lblC = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.btnRent = new System.Windows.Forms.Button();
@@ -86,22 +85,21 @@
             this.tabControl1.Controls.Add(this.tabData);
             this.tabControl1.Controls.Add(this.tabRent);
             this.tabControl1.Controls.Add(this.tabHistory);
-            this.tabControl1.Location = new System.Drawing.Point(19, 17);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Location = new System.Drawing.Point(28, 30);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(810, 363);
+            this.tabControl1.Size = new System.Drawing.Size(1132, 554);
             this.tabControl1.TabIndex = 1;
             // 
             // tabData
             // 
             this.tabData.Controls.Add(this.groupBox2);
             this.tabData.Controls.Add(this.groupBox1);
-            this.tabData.Location = new System.Drawing.Point(4, 22);
-            this.tabData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabData.Location = new System.Drawing.Point(4, 41);
             this.tabData.Name = "tabData";
-            this.tabData.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabData.Size = new System.Drawing.Size(802, 337);
+            this.tabData.Padding = new System.Windows.Forms.Padding(3);
+            this.tabData.Size = new System.Drawing.Size(1124, 509);
             this.tabData.TabIndex = 0;
             this.tabData.Text = "Add Data";
             this.tabData.UseVisualStyleBackColor = true;
@@ -121,11 +119,10 @@
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Location = new System.Drawing.Point(259, 16);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(574, 25);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(231, 235);
+            this.groupBox2.Size = new System.Drawing.Size(527, 437);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Modify Video";
@@ -133,127 +130,122 @@
             // cboG
             // 
             this.cboG.FormattingEnabled = true;
-            this.cboG.Location = new System.Drawing.Point(75, 91);
-            this.cboG.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboG.Location = new System.Drawing.Point(193, 148);
             this.cboG.Name = "cboG";
-            this.cboG.Size = new System.Drawing.Size(134, 21);
+            this.cboG.Size = new System.Drawing.Size(323, 42);
             this.cboG.TabIndex = 17;
             // 
             // datePicker
             // 
-            this.datePicker.Location = new System.Drawing.Point(75, 122);
-            this.datePicker.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.datePicker.CalendarFont = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datePicker.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datePicker.Location = new System.Drawing.Point(193, 204);
             this.datePicker.Name = "datePicker";
-            this.datePicker.Size = new System.Drawing.Size(135, 20);
+            this.datePicker.Size = new System.Drawing.Size(324, 42);
             this.datePicker.TabIndex = 6;
             // 
             // cboMV
             // 
             this.cboMV.FormattingEnabled = true;
-            this.cboMV.Location = new System.Drawing.Point(75, 31);
-            this.cboMV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboMV.Location = new System.Drawing.Point(194, 38);
             this.cboMV.Name = "cboMV";
-            this.cboMV.Size = new System.Drawing.Size(134, 21);
+            this.cboMV.Size = new System.Drawing.Size(323, 42);
             this.cboMV.TabIndex = 16;
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(75, 144);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrice.Location = new System.Drawing.Point(195, 265);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(134, 20);
+            this.txtPrice.Size = new System.Drawing.Size(323, 42);
             this.txtPrice.TabIndex = 15;
             // 
             // txtTitle
             // 
-            this.txtTitle.Location = new System.Drawing.Point(75, 61);
-            this.txtTitle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTitle.Location = new System.Drawing.Point(195, 94);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(134, 20);
+            this.txtTitle.Size = new System.Drawing.Size(323, 42);
             this.txtTitle.TabIndex = 12;
             // 
             // btnDeleteV
             // 
-            this.btnDeleteV.Location = new System.Drawing.Point(145, 179);
-            this.btnDeleteV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDeleteV.BackColor = System.Drawing.Color.Salmon;
+            this.btnDeleteV.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteV.Location = new System.Drawing.Point(360, 347);
             this.btnDeleteV.Name = "btnDeleteV";
-            this.btnDeleteV.Size = new System.Drawing.Size(62, 27);
+            this.btnDeleteV.Size = new System.Drawing.Size(157, 56);
             this.btnDeleteV.TabIndex = 10;
             this.btnDeleteV.Text = "Delete";
-            this.btnDeleteV.UseVisualStyleBackColor = true;
+            this.btnDeleteV.UseVisualStyleBackColor = false;
             // 
             // btnUpdateV
             // 
-            this.btnUpdateV.Location = new System.Drawing.Point(79, 179);
-            this.btnUpdateV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdateV.BackColor = System.Drawing.Color.Gold;
+            this.btnUpdateV.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateV.Location = new System.Drawing.Point(197, 347);
             this.btnUpdateV.Name = "btnUpdateV";
-            this.btnUpdateV.Size = new System.Drawing.Size(62, 27);
+            this.btnUpdateV.Size = new System.Drawing.Size(157, 56);
             this.btnUpdateV.TabIndex = 9;
             this.btnUpdateV.Text = "Update";
-            this.btnUpdateV.UseVisualStyleBackColor = true;
+            this.btnUpdateV.UseVisualStyleBackColor = false;
             // 
             // btnAddV
             // 
-            this.btnAddV.Location = new System.Drawing.Point(13, 179);
-            this.btnAddV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddV.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnAddV.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddV.Location = new System.Drawing.Point(34, 347);
             this.btnAddV.Name = "btnAddV";
-            this.btnAddV.Size = new System.Drawing.Size(62, 27);
+            this.btnAddV.Size = new System.Drawing.Size(157, 56);
             this.btnAddV.TabIndex = 8;
             this.btnAddV.Text = "Add";
-            this.btnAddV.UseVisualStyleBackColor = true;
+            this.btnAddV.UseVisualStyleBackColor = false;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(20, 91);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(29, 158);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.Size = new System.Drawing.Size(76, 25);
             this.label10.TabIndex = 7;
             this.label10.Text = "Genre";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(20, 148);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(31, 281);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(36, 13);
+            this.label9.Size = new System.Drawing.Size(65, 25);
             this.label9.TabIndex = 6;
             this.label9.Text = "Price";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(20, 122);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(29, 219);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 13);
+            this.label8.Size = new System.Drawing.Size(60, 25);
             this.label8.TabIndex = 5;
             this.label8.Text = "Year";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(20, 61);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(31, 104);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(32, 13);
+            this.label7.Size = new System.Drawing.Size(59, 25);
             this.label7.TabIndex = 4;
             this.label7.Text = "Title";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(20, 31);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(30, 48);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
+            this.label6.Size = new System.Drawing.Size(70, 25);
             this.label6.TabIndex = 3;
             this.label6.Text = "Video";
             // 
@@ -272,11 +264,10 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(16, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(24, 25);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(231, 235);
+            this.groupBox1.Size = new System.Drawing.Size(534, 437);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Modify Customer";
@@ -284,132 +275,124 @@
             // cboMC
             // 
             this.cboMC.FormattingEnabled = true;
-            this.cboMC.Location = new System.Drawing.Point(81, 31);
-            this.cboMC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboMC.Location = new System.Drawing.Point(183, 48);
             this.cboMC.Name = "cboMC";
-            this.cboMC.Size = new System.Drawing.Size(134, 21);
+            this.cboMC.Size = new System.Drawing.Size(339, 42);
             this.cboMC.TabIndex = 12;
             // 
             // txtEm
             // 
-            this.txtEm.Location = new System.Drawing.Point(81, 144);
-            this.txtEm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEm.Location = new System.Drawing.Point(183, 275);
             this.txtEm.Name = "txtEm";
-            this.txtEm.Size = new System.Drawing.Size(134, 20);
+            this.txtEm.Size = new System.Drawing.Size(339, 42);
             this.txtEm.TabIndex = 11;
             // 
             // txtPh
             // 
-            this.txtPh.Location = new System.Drawing.Point(81, 118);
-            this.txtPh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPh.Location = new System.Drawing.Point(183, 217);
             this.txtPh.Name = "txtPh";
-            this.txtPh.Size = new System.Drawing.Size(134, 20);
+            this.txtPh.Size = new System.Drawing.Size(339, 42);
             this.txtPh.TabIndex = 10;
             // 
             // txtLN
             // 
-            this.txtLN.Location = new System.Drawing.Point(81, 87);
-            this.txtLN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtLN.Location = new System.Drawing.Point(183, 159);
             this.txtLN.Name = "txtLN";
-            this.txtLN.Size = new System.Drawing.Size(134, 20);
+            this.txtLN.Size = new System.Drawing.Size(339, 42);
             this.txtLN.TabIndex = 9;
             // 
             // txtFN
             // 
-            this.txtFN.Location = new System.Drawing.Point(81, 61);
-            this.txtFN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtFN.Location = new System.Drawing.Point(183, 104);
             this.txtFN.Name = "txtFN";
-            this.txtFN.Size = new System.Drawing.Size(134, 20);
+            this.txtFN.Size = new System.Drawing.Size(339, 42);
             this.txtFN.TabIndex = 8;
             // 
             // btnDeleteC
             // 
-            this.btnDeleteC.Location = new System.Drawing.Point(155, 179);
-            this.btnDeleteC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDeleteC.BackColor = System.Drawing.Color.Salmon;
+            this.btnDeleteC.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteC.Location = new System.Drawing.Point(356, 347);
             this.btnDeleteC.Name = "btnDeleteC";
-            this.btnDeleteC.Size = new System.Drawing.Size(62, 27);
+            this.btnDeleteC.Size = new System.Drawing.Size(166, 56);
             this.btnDeleteC.TabIndex = 7;
             this.btnDeleteC.Text = "Delete";
-            this.btnDeleteC.UseVisualStyleBackColor = true;
+            this.btnDeleteC.UseVisualStyleBackColor = false;
             // 
             // btnUpdateC
             // 
-            this.btnUpdateC.Location = new System.Drawing.Point(89, 179);
-            this.btnUpdateC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdateC.BackColor = System.Drawing.Color.Gold;
+            this.btnUpdateC.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateC.Location = new System.Drawing.Point(184, 347);
             this.btnUpdateC.Name = "btnUpdateC";
-            this.btnUpdateC.Size = new System.Drawing.Size(62, 27);
+            this.btnUpdateC.Size = new System.Drawing.Size(166, 56);
             this.btnUpdateC.TabIndex = 6;
             this.btnUpdateC.Text = "Update";
-            this.btnUpdateC.UseVisualStyleBackColor = true;
+            this.btnUpdateC.UseVisualStyleBackColor = false;
             // 
             // btnAddC
             // 
-            this.btnAddC.Location = new System.Drawing.Point(21, 179);
-            this.btnAddC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddC.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnAddC.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddC.Location = new System.Drawing.Point(12, 347);
             this.btnAddC.Name = "btnAddC";
-            this.btnAddC.Size = new System.Drawing.Size(62, 27);
+            this.btnAddC.Size = new System.Drawing.Size(166, 56);
             this.btnAddC.TabIndex = 5;
             this.btnAddC.Text = "Add";
-            this.btnAddC.UseVisualStyleBackColor = true;
+            this.btnAddC.UseVisualStyleBackColor = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(5, 146);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(8, 278);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.Size = new System.Drawing.Size(78, 25);
             this.label5.TabIndex = 4;
             this.label5.Text = "E-mail";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 119);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(8, 218);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
+            this.label4.Size = new System.Drawing.Size(76, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Phone";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(5, 89);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(8, 162);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.Size = new System.Drawing.Size(128, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Last Name";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(4, 61);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 104);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.Size = new System.Drawing.Size(130, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "First Name";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(4, 31);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Font = new System.Drawing.Font("Tekton Pro Ext", 9.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.Size = new System.Drawing.Size(119, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Customer";
             // 
             // tabRent
             // 
-            this.tabRent.Controls.Add(this.checkBox1);
             this.tabRent.Controls.Add(this.lblC);
             this.tabRent.Controls.Add(this.label12);
             this.tabRent.Controls.Add(this.btnRent);
@@ -419,53 +402,38 @@
             this.tabRent.Controls.Add(this.label14);
             this.tabRent.Controls.Add(this.label13);
             this.tabRent.Controls.Add(this.label11);
-            this.tabRent.Location = new System.Drawing.Point(4, 22);
-            this.tabRent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabRent.Location = new System.Drawing.Point(4, 41);
             this.tabRent.Name = "tabRent";
-            this.tabRent.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabRent.Size = new System.Drawing.Size(802, 337);
+            this.tabRent.Padding = new System.Windows.Forms.Padding(3);
+            this.tabRent.Size = new System.Drawing.Size(1124, 509);
             this.tabRent.TabIndex = 1;
             this.tabRent.Text = "Rent a video";
             this.tabRent.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(399, 85);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 19;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // lblC
             // 
             this.lblC.AutoSize = true;
             this.lblC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblC.Location = new System.Drawing.Point(83, 115);
-            this.lblC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblC.Location = new System.Drawing.Point(127, 221);
             this.lblC.Name = "lblC";
-            this.lblC.Size = new System.Drawing.Size(0, 13);
+            this.lblC.Size = new System.Drawing.Size(0, 20);
             this.lblC.TabIndex = 18;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(7, 115);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Font = new System.Drawing.Font("Tekton Pro Ext", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(19, 221);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(32, 13);
+            this.label12.Size = new System.Drawing.Size(52, 20);
             this.label12.TabIndex = 17;
             this.label12.Text = "Cost";
             // 
             // btnRent
             // 
-            this.btnRent.Location = new System.Drawing.Point(149, 161);
-            this.btnRent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRent.Location = new System.Drawing.Point(266, 269);
             this.btnRent.Name = "btnRent";
-            this.btnRent.Size = new System.Drawing.Size(62, 27);
+            this.btnRent.Size = new System.Drawing.Size(120, 54);
             this.btnRent.TabIndex = 16;
             this.btnRent.Text = "Rent";
             this.btnRent.UseVisualStyleBackColor = true;
@@ -473,93 +441,86 @@
             // cboRG
             // 
             this.cboRG.FormattingEnabled = true;
-            this.cboRG.Location = new System.Drawing.Point(78, 53);
-            this.cboRG.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboRG.Location = new System.Drawing.Point(117, 82);
             this.cboRG.Name = "cboRG";
-            this.cboRG.Size = new System.Drawing.Size(134, 21);
+            this.cboRG.Size = new System.Drawing.Size(269, 40);
             this.cboRG.TabIndex = 15;
             // 
             // cboRV
             // 
             this.cboRV.FormattingEnabled = true;
-            this.cboRV.Location = new System.Drawing.Point(78, 81);
-            this.cboRV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboRV.Location = new System.Drawing.Point(117, 141);
             this.cboRV.Name = "cboRV";
-            this.cboRV.Size = new System.Drawing.Size(134, 21);
+            this.cboRV.Size = new System.Drawing.Size(269, 40);
             this.cboRV.TabIndex = 14;
             // 
             // cboRC
             // 
             this.cboRC.FormattingEnabled = true;
-            this.cboRC.Location = new System.Drawing.Point(78, 25);
-            this.cboRC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboRC.Location = new System.Drawing.Point(117, 23);
             this.cboRC.Name = "cboRC";
-            this.cboRC.Size = new System.Drawing.Size(134, 21);
+            this.cboRC.Size = new System.Drawing.Size(269, 40);
             this.cboRC.TabIndex = 13;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(7, 83);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Font = new System.Drawing.Font("Tekton Pro Ext", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(19, 154);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(39, 13);
+            this.label14.Size = new System.Drawing.Size(55, 20);
             this.label14.TabIndex = 4;
             this.label14.Text = "Video";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(4, 54);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Font = new System.Drawing.Font("Tekton Pro Ext", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(19, 95);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
+            this.label13.Size = new System.Drawing.Size(61, 20);
             this.label13.TabIndex = 3;
             this.label13.Text = "Genre";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(4, 25);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Font = new System.Drawing.Font("Tekton Pro Ext", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(19, 36);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(59, 13);
+            this.label11.Size = new System.Drawing.Size(95, 20);
             this.label11.TabIndex = 1;
             this.label11.Text = "Customer";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // tabHistory
             // 
             this.tabHistory.Controls.Add(this.lstR);
             this.tabHistory.Controls.Add(this.rbReturned);
             this.tabHistory.Controls.Add(this.rbRented);
-            this.tabHistory.Location = new System.Drawing.Point(4, 22);
-            this.tabHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabHistory.Location = new System.Drawing.Point(4, 41);
             this.tabHistory.Name = "tabHistory";
-            this.tabHistory.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabHistory.Size = new System.Drawing.Size(802, 337);
+            this.tabHistory.Padding = new System.Windows.Forms.Padding(3);
+            this.tabHistory.Size = new System.Drawing.Size(1124, 509);
             this.tabHistory.TabIndex = 2;
             this.tabHistory.Text = "History";
             this.tabHistory.UseVisualStyleBackColor = true;
             // 
             // lstR
             // 
-            this.lstR.Location = new System.Drawing.Point(13, 51);
-            this.lstR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstR.Location = new System.Drawing.Point(20, 77);
             this.lstR.Name = "lstR";
-            this.lstR.Size = new System.Drawing.Size(272, 232);
+            this.lstR.Size = new System.Drawing.Size(406, 355);
             this.lstR.TabIndex = 2;
             this.lstR.UseCompatibleStateImageBehavior = false;
             // 
             // rbReturned
             // 
             this.rbReturned.AutoSize = true;
-            this.rbReturned.Location = new System.Drawing.Point(109, 23);
-            this.rbReturned.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbReturned.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbReturned.Location = new System.Drawing.Point(164, 35);
             this.rbReturned.Name = "rbReturned";
-            this.rbReturned.Size = new System.Drawing.Size(69, 17);
+            this.rbReturned.Size = new System.Drawing.Size(180, 38);
             this.rbReturned.TabIndex = 1;
             this.rbReturned.TabStop = true;
             this.rbReturned.Text = "Returned";
@@ -568,10 +529,10 @@
             // rbRented
             // 
             this.rbRented.AutoSize = true;
-            this.rbRented.Location = new System.Drawing.Point(13, 23);
-            this.rbRented.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbRented.Font = new System.Drawing.Font("Tekton Pro Ext", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbRented.Location = new System.Drawing.Point(20, 35);
             this.rbRented.Name = "rbRented";
-            this.rbRented.Size = new System.Drawing.Size(60, 17);
+            this.rbRented.Size = new System.Drawing.Size(149, 38);
             this.rbRented.TabIndex = 0;
             this.rbRented.TabStop = true;
             this.rbRented.Text = "Rented";
@@ -579,11 +540,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(781, 420);
+            this.ClientSize = new System.Drawing.Size(1172, 646);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
@@ -646,7 +606,6 @@
         private System.Windows.Forms.ListView lstR;
         private System.Windows.Forms.RadioButton rbReturned;
         private System.Windows.Forms.RadioButton rbRented;
-        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
